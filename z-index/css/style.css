@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.image {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem 3rem 0.5rem;
+  background-color: antiquewhite;
+  width: 22vw;
+  height: 29vh;
+  text-align: center;
+  opacity: .5;
+  position: absolute;
+  z-index: auto;
+}
+img {
+  width: 20vw;
+  height: 20vh;
+}
+.img1{
+    transform: rotate(10deg);
+    margin: 40% 10%;
+}
+.img2{
+    transform: rotate(20deg);
+    margin: 35% 30%;
+}
+.img3{
+    transform: rotate(10deg);
+    margin: 30% 50%;
+}
+.img4{
+    transform: rotate(-20deg);
+    margin: 20% 65%;
+}
+.image:hover{
+  transform: rotate(0);
+  opacity: 1;
+  cursor: pointer;
+  transition: 1.5s;
+  z-index: 1;
+}

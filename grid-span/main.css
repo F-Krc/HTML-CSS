@@ -1,0 +1,57 @@
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.item {
+  border: 5px solid lightskyblue;
+  text-align: center; 
+  font-size: 30px;
+  padding: 7px;
+}
+
+.item:nth-of-type(1) {
+  background-color: lightskyblue;
+}
+
+.container :nth-child(5){
+  grid-area: 1/1;
+}
+.container :nth-child(1){
+  grid-area: 1/2/1/4;
+}
+.container :nth-child(6){
+  grid-area: 1/4;
+}
+.container :nth-child(7){
+  grid-area: 2/1;
+}
+.container :nth-child(8){
+  grid-area: 2/2;
+}
+.container :nth-child(2){
+  grid-area: 2/3/2/5;
+  background-color: coral;
+}
+.container :nth-child(9){
+  grid-area: 3/1;
+}
+.container :nth-child(3){
+  grid-area: 3/2/5/3;
+  background-color: lime;
+}
+.container :nth-child(10){
+  grid-area: 3/3;
+}
+.container :nth-child(4){
+  grid-area: 3/4/5/4;
+  background-color: violet;
+}
+.container :nth-child(11){
+  grid-area: 4/1;
+}
+.container :nth-child(12){
+  grid-area: 4/3;
+}

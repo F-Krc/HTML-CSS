@@ -85,9 +85,6 @@ footer{
     
 }
 @media (max-width: 600px) {
-    html{
-        font-size: 6px;
-    } 
     body{
         display: block;
         text-align: center;

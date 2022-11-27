@@ -25,23 +25,24 @@ img {
 }
 .img1{
     transform: rotate(10deg);
-    margin: 40% 10%;
+    margin: 30% 10%;
 }
 .img2{
     transform: rotate(20deg);
-    margin: 35% 30%;
+    margin: 25% 30%;
 }
 .img3{
     transform: rotate(10deg);
-    margin: 30% 50%;
+    margin: 20% 50%;
 }
 .img4{
     transform: rotate(-20deg);
-    margin: 20% 65%;
+    margin: 10% 65%;
 }
 .image:hover{
   transform: rotate(0);
   opacity: 1;
+  transform: scale(1.2);
   cursor: pointer;
   transition: 1.5s;
   z-index: 1;
